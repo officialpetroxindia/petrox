@@ -62,5 +62,11 @@ nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classLi
 document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(b=>b.classList.remove('active'));btn.classList.add('active');const f=btn.dataset.filter;document.querySelectorAll('.project').forEach(card=>{card.hidden=f!=='all'&&!card.dataset.category.split(' ').includes(f)});}));
 document.getElementById('year').textContent=new Date().getFullYear();
 </script>
+<section id="rs200" style="padding:40px 20px;max-width:900px;margin:auto">
+  <h2 style="color:#fff">Green Pulsar RS200</h2>
+  <video controls playsinline preload="metadata" style="width:100%;border-radius:16px;background:#111">
+    <source src="copy_1E75BD06-E566-4EB0-9004-687DD31979EA.mov" type="video/quicktime">
+  </video>
+</section>
 </body>
 </html>
